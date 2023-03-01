@@ -10,6 +10,7 @@ body{
 
 header{
     background-color: #01a2a8;
+    height: 50px;
 }
 
 a{
@@ -25,7 +26,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .hamburger{

@@ -69,7 +69,7 @@ createacctbtn.addEventListener("click", () => {
         isVerified = false;
     }
 
-    if(isVerified = true){
+    if(isVerified == true){
     createUserWithEmailAndPassword(auth, signupEmail, signupPassword).then(() =>{
         window.alert("Successfully Created Account");
         window.location = "./createTask.html";
