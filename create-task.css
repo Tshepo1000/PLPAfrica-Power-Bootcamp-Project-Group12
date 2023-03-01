@@ -26,15 +26,17 @@ body{
 
 
 .left-div{
-    width : 49%;
+    width : 90%;
     margin : 0;
     padding : 0;
+    padding-left: 10%;
     display : inline-block;
     margin : auto;
     vertical-align: top;
+    align-items: center;
     /* background-color: white; */
 }
-.right-div{
+/* .right-div{
     width : 49%;
     margin : 0;
     padding : 0;
@@ -43,7 +45,7 @@ body{
     padding : 30px;
     color : gray;
     box-sizing: border-box;
-}
+} */
 
 .left-div .form{
     width : 90%;
